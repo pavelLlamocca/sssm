@@ -1,0 +1,20 @@
+For Testing
+===========
+
+Execute as application the Start Class. The parameters :
+str_StockSimbol
+dbl_InputPrice
+are set manually in the code (Start.java). The ouput acoording these parameter will be:
+
+GBCE All Share is : 108.44717711976989
+Dividend Yield for the Stock : GIN and the price : 20.44 is : 0.09784735812133072
+P/E Ratio for the Stock : GIN and the price : 20.44 is : 208.8968
+Trade :1 Code:201510301145627 TimeStamp:Wed Oct 28 14:56:27 CET 2015 Quantity:20 Buy/Sell:B Price:20.421
+Trade :1 Code:201510301145627 TimeStamp:Wed Oct 28 14:56:27 CET 2015 Quantity:20 Buy/Sell:B Price:20.421
+Trade :2 Code:201510301145628 TimeStamp:Wed Oct 28 14:56:28 CET 2015 Quantity:15 Buy/Sell:B Price:18.43
+Trade :1 Code:201510301145627 TimeStamp:Wed Oct 28 14:56:27 CET 2015 Quantity:20 Buy/Sell:B Price:20.421
+Trade :2 Code:201510301145628 TimeStamp:Wed Oct 28 14:56:28 CET 2015 Quantity:15 Buy/Sell:B Price:18.43
+Trade :3 Code:201510301145629 TimeStamp:Wed Oct 28 14:56:29 CET 2015 Quantity:40 Buy/Sell:S Price:30.68
+The Volume Weighted Stock Price for the trades input in the last 15 minutes is : 25.494266666666665
+
+The parameters can be changed, also more trades can be added manually (Start.java)
